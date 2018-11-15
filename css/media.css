@@ -1,0 +1,66 @@
+@media (min-width: 320px) and (max-width: 767px){
+	.header-tel, .mobmenu{display: inline-block; vertical-align: middle; margin-top: 0;}
+	.header-menu{margin: 0;padding: 10px;}
+	.header-menu__list{display: none;}
+	.header-menu__item{
+		float: none;
+		display: block;
+		padding: 5px 0;
+	}
+	.header-logo, .header-tel{float: none;}
+	.planning-cottege,
+	.details__item,
+	.benefits__col,
+	.benefits__item-icon,
+	.planning-cottege__img, .planning-cottege__plan{
+		float: none;
+		width: 100%;
+		max-width: 100%;
+	}
+	.details__item{margin-bottom: 15px;}
+	.planning-cottege__text{margin-top: 10px;}
+	.planning-cottege__title{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.header{text-align: left;}
+	.header-logo{max-width: 90%;margin: 0 auto 10px auto;}
+	.about__text{padding: 0 15px;}
+	.benefits__item-icon, .benefits__item-name{text-align: center;}
+	.benefits__item-name{
+		margin: 5px 0;
+	}
+	.reconstruction__text{margin: 0 15px;}
+	.planning{padding: 15px 15px 30px 15px;}
+	.planning-cottege{padding: 0;}
+	.planning-general__img{margin: 0 0 10px 0;}
+	.planning-cotteges{margin-top: 15px;}
+	.planning-cotteges__title{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.planning-cotteges__title span{font-size: 21px;}
+}
+
+@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
+	
+}
+
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+	.header-menu{display: block;}
+	.header-logo{text-align: center;}
+	.details__item{
+		float: left;
+		width: 48%;
+		margin: 0 1%;
+		font-size: 14px;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	.details__item-inner{padding: 0 25px;}
+}
