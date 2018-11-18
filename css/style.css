@@ -1,8 +1,4 @@
 @font-face{
-  font-family: 'bookmanoldstyle';
-  src: url('../fonts/bookmanoldstyle.ttf')  format('truetype'); 
-}
-@font-face{
   font-family: 'arial-narrow';
   src: url('../fonts/arial-narrow.ttf')  format('truetype'); 
 }
