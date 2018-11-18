@@ -1,8 +1,16 @@
+
 $( document ).ready(function() {
 	/*gallery*/
-	$('.gallery__items').masonry({
-		itemSelector: '.gallery__item'
-	});
+	$('.gallery__items').imagesLoaded()
+  .done( function( instance ) {
+    console.log('all images successfully loaded');
+		$('.gallery__items').masonry({
+			itemSelector: '.gallery__item'
+		});
+  })
+	
+  
+	
 	/*mobile menu*/
 	$('.mobmenu').click(function(){
 		$(this).toggleClass('change');
