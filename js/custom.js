@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+	/*gallery*/
+	$('.gallery__items').masonry({
+		itemSelector: '.gallery__item'
+	});
 	/*mobile menu*/
 	$('.mobmenu').click(function(){
 		$(this).toggleClass('change');
