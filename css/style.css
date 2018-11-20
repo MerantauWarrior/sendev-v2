@@ -1,10 +1,10 @@
 @font-face{
   font-family: 'bookmanoldstyle';
-  src: url('../fonts/bookmanoldstyle.ttf')  format('truetype'); 
+  src: url('../fonts/bookmanoldstyle.TTF')  format('truetype'); 
 }
 @font-face{
   font-family: 'bookantiqua';
-  src: url('../fonts/bookantiqua.ttf')  format('truetype'); 
+  src: url('../fonts/bookantiqua.TTF')  format('truetype'); 
 }
 @font-face{
   font-family: 'BigNoodleTitlingRUS';
