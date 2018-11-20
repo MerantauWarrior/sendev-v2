@@ -1,4 +1,3 @@
-
 $( document ).ready(function() {
 	/*gallery*/
 	$('.gallery__items').imagesLoaded()
@@ -8,9 +7,6 @@ $( document ).ready(function() {
 			itemSelector: '.gallery__item'
 		});
   })
-	
-  
-	
 	/*mobile menu*/
 	$('.mobmenu').click(function(){
 		$(this).toggleClass('change');
@@ -24,6 +20,8 @@ $( document ).ready(function() {
 			scrollTop: $(goTo).offset().top},
 		'slow');
 	});
+	
+	
 	/*Ajax mail*/
 	$('button.question__form-submit').click(function(e){
 		e.preventDefault();

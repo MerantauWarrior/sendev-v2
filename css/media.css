@@ -1,13 +1,21 @@
 @media (min-width: 320px) and (max-width: 767px){
 	.header-tel, .mobmenu{display: inline-block; vertical-align: middle; margin-top: 0;}
-	.header-menu{margin: 0;padding: 10px;}
+	.header-menu{margin: 0;padding: 0;}
+	.header-menu__gradient, .header-menu__item:after{display: none;}
 	.header-menu__list{display: none;}
 	.header-menu__item{
 		float: none;
 		display: block;
 		padding: 5px 0;
 	}
+	.header-menu__link{text-shadow: none;}
 	.header-logo, .header-tel{float: none;}
+	.header-logo{text-align: center;}
+	.header-logo__text{font-size: 20px;}
+	.planning-cottege__title{position: relative;}
+	.contacts__info-label{display: block;}
+	.contacts__info-item{margin-bottom: 15px;}
+	.details__item-inner{padding: 0 15%;}
 	.planning-cottege,
 	.details__item,
 	.benefits__col,
