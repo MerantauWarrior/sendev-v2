@@ -331,7 +331,7 @@ img{max-width: 100%;}
 .planning-cottege__text{
 	margin-top: 15px;
 	font-size: 12px;
-	word-break: break-all;
+	/*word-break: break-all;*/
 }
 .planning-table{
 }
